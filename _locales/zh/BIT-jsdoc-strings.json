@@ -1,0 +1,41 @@
+{
+	"hicbit_control.hicbit_Init":"hicbit板初始化，请在开机时执行",
+	"hicbit_control.hicbit_Arrowkeys": "判断方向（上下左右）按键被按下",
+	"hicbit_control.wait_s":"等待指定时间（秒）",
+	"hicbit_control.wait_ms":"等待指定时间（毫秒）",
+
+	"hicbit.hicbit_set_Single_motor": "设置一路电机速度(-255~255)和电机功能",
+	"hicbit.hicbit_set_Dual_motor": "设置两路电机速度(-255~255)和电机功能",
+	"hicbit.hicbit_setCodedmotor":"设置编码电机的角度和速度",
+
+	"Sensor.Buzzer":"蜂鸣器控制",
+	"Sensor.hicbit_lineSensorValue":"获取巡线传感器的值",
+	"Sensor.hicbit_ultrasonic":"获得超声波模块测试到的障碍物的距离",
+	"Sensor.hicbit_getKnobValue":"获取旋钮的值",
+	"Sensor.hicbit_getphotosensitiveValue":"获取光敏传感器的值",
+	"Sensor.hicbit_photosensitiveSensor":"获得光敏传感器的状态，返回1表示检测到光亮，返回0表示没有检测到光亮",
+	"Sensor.hicbit_getavoidSensorValue":"获取避障传感器的值",
+	"Sensor.hicbit_avoidSensor":"获得避障传感器状态，从而知道前方有没有障碍物,返回1遇到障碍物，返回0没有遇到障碍物",
+	"Sensor.hicbit_getSoundsensorValue":"获取声音传感器的值",
+	"Sensor.hicbit_getGyroscopGeValue":"获取电子陀螺仪的角度值",
+	"Sensor.hicbit_SoundSensor":"设置声音传感器，从而知道有没有声音发出,返回1有声音，返回0则没有",
+	"Sensor.hicbit_collisionsensor":"检测碰撞传感器是否有触发，有触发返回1，没有触发返回0",
+	"Sensor.hicbit_onQdee_remote_ir_pressed":"当红外接收到遥控器码时,执行任务",
+	"Sensor.hicbit_Rocker1": "判断遥感的方向",
+	"Sensor.hicbit_getDHT11value":"温湿度DHT11获取温湿度(下次使用时需1s延时)",
+
+	"IR.init:":"初始化红外遥控接收传感器",
+	"IR.onPressEvent:":"当红外接收到遥控器码时,执行任务",
+
+	"RGB_light.hicbit_initRGBLight":"设置RGB灯接口",
+	"RGB_light.hicbit_setPixelRGB":"设置RGB灯颜色",
+	"RGB_light.hicbit_showLight":"显示RGB灯，和设置RGB灯颜色配合使用，设置完RGB灯颜色后必须执行显示RGB灯完成显示",
+	"RGB_light.hicbit_clearLight":"清除RGB灯颜色，关闭RGB灯",
+	
+	"Display.Hicbit_Display_Init":"屏幕显示初始化",
+	"Display.Clearscreen":"清屏操作",
+	"Display.setDisplay":"屏幕显示设置（行数，内容，数值，量程）",
+	"Display.setDisplay2":"屏幕显示设置（行数，内容）",
+	"Display.setDisplay3":"屏幕显示传感器值（端口，传感器类型）"
+
+}
